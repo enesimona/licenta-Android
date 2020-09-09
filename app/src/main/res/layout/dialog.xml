@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerVertical="true"
+    >
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_button1"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/numberPicker1"
+        android:layout_toStartOf="@+id/numberPicker1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_button1"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/numberPicker1"
+        android:layout_toEndOf="@+id/numberPicker1" />
+
+</RelativeLayout>

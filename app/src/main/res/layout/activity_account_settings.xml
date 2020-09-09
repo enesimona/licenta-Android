@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout_setari"
+    android:fitsSystemWindows="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_account_settings"
+            android:background="@drawable/background2"
+            >
+
+
+        <include layout="@layout/app_bar"/>
+
+            <TextView
+                android:id="@+id/tv_setari_date_generale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="80dp"
+                android:text="DATE GENERALE"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorOrangeDarker"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_setari_date_generale"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:text="Dinescu"
+               />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Ramona"
+            />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="07-12-1994"
+                android:layout_below="@+id/editText2"
+            />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText3"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Feminin"
+             />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText4"
+                android:layout_marginTop="20dp"
+                android:text="DATE CONTACT"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorOrangeDarker"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ramona@gmail.com"
+                />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText5"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="0732878464"
+          />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText6"
+                android:text="PAROLA"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorOrangeDarker"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textView3"
+                android:inputType="textPassword"
+                 />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/editText7"
+                android:layout_marginTop="10dp"
+                android:text="Salveaza"
+                android:background="@drawable/custom_button1"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"/>
+
+        </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_drawer_setari"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/menu_drawer"/>
+
+</android.support.v4.widget.DrawerLayout>
+

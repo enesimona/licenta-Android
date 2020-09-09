@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enesimona30.licenta1.ReservationActivity"
+    android:background="@drawable/background2">
+
+    <ImageView
+        android:id="@+id/iv_reservation_poza"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/primus1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="-2dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_reservation_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_reservation_poza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Formular rezervare"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:onClick="setDate"
+        android:id="@+id/btn_reservation_data"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Data"
+        android:textSize="20dp"
+        android:background="@drawable/custom_button1"/>
+
+    <Button
+        android:id="@+id/btn_reservation_ora"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_reservation_data"
+        android:layout_alignStart="@+id/btn_reservation_data"
+        android:layout_below="@+id/btn_reservation_data"
+        android:layout_marginTop="21dp"
+        android:text="12:00"
+        android:background="@drawable/custom_button1"
+        />
+
+    <Button
+        android:id="@+id/btn_reservation_nr_persoane"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_reservation_data"
+        android:layout_alignRight="@+id/btn_reservation_data"
+        android:layout_alignTop="@+id/btn_reservation_ora"
+        android:text="Numar persoane"
+        android:background="@drawable/custom_button1"
+      />
+
+    <Button
+        android:id="@+id/btn_reservation_rezerva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_reservation_ora"
+        android:layout_marginTop="70dp"
+        android:text="Rezerva"
+        android:layout_alignRight="@+id/btn_reservation_nr_persoane"
+        android:layout_alignEnd="@+id/btn_reservation_nr_persoane"
+        android:layout_alignLeft="@+id/btn_reservation_ora"
+        android:layout_alignStart="@+id/btn_reservation_ora"
+        android:background="@drawable/custom_button2"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/tv_reservation_raspuns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_reservation_ora"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text=""
+        android:textSize="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_scaneaza_nota"
+        android:title="@string/menu_item_scaneaza_nota" />
+    <item
+        android:id="@+id/item_restaurante"
+        android:title="@string/menu_item_restaurante" />
+    <item
+        android:id="@+id/item_rezerva"
+        android:title="Rezerva" />
+    <item
+        android:id="@+id/item_setari_cont"
+        android:title="@string/menu_item_setari_cont" />
+    <item
+        android:id="@+id/item_ajutor"
+        android:title="Ajutor" />
+
+
+
+</menu>

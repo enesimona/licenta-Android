@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">LuckyFood</string>
+
+    <string name="main_autentificare_inregistrare">Autentifica-te sau Inregistreaza-te</string>
+    <string name="main_autentificare">Autentificare</string>
+    <string name="main_inregistrare">Inregistrare</string>
+
+    <string name="new_user_cont_nou">Creaza un cont nou</string>
+    <string name="new_user_nume">Nume</string>
+    <string name="new_user_prenume">Prenume</string>
+    <string name="new_user_data_nasterii">Data Nasterii</string>
+    <string name="new_user_email">Email</string>
+    <string name="new_user_telefon">Telefon</string>
+    <string name="new_user_parola">Parola</string>
+    <string name="new_user_confirma_parola">Confirma Parola</string>
+    <string name="new_user_nume_utilizator">Nume utilizator</string>
+    <string name="new_user_adauga_cont_nou">Salvare</string>
+    <string name="new_user_sex_feminin">Feminin</string>
+    <string name="new_user_sex_masculin">Masculin</string>
+
+    <string name="login_autentificare">Autentificare</string>
+    <string name="login_nume_utilizator">Nume Utilizator</string>
+    <string name="login_parola">Parola</string>
+    <string name="login_trimite">Trimite</string>
+    <string name="login_recuperare_parola">Recuperare parola</string>
+
+    <string name="password_recovery_email">Email</string>
+    <string name="password_recovery_trimite">Trimite</string>
+
+    <string name="menu_item_scaneaza_nota">Scaneaza nota</string>
+    <string name="menu_item_restaurante">Restaurante</string>
+    <string name="menu_item_setari_cont">Setari cont</string>
+    <string name="menu_item_faq">Intrebari frecvente</string>
+    <string name="menu_item_contact">Contact</string>
+
+    <string name="home_bun_venit">Bun venit!</string>
+    <string name="home_scaneaza_nota">Scaneaza nota</string>
+
+    <string name="google_place_api">AIzaSyCEtTgIAleYeBWGZqvtRYlFyEGioI4OvAQ</string>
+    <string name="google_maps_api">AIzaSyBG5lGP5IGSknkCNtDpzabOMmrmrw9vIPw</string>
+
+
+    <string name="row_item_fara_nume">Restaurant fara nume!</string>
+    <string name="row_item_fara_adresa">Restaurant fara adresa!</string>
+
+    <string name="info_restaurant_info_aditionale">Informatii aditionale</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="scan_barcode_button">Scan barcode</string>
+    <string name="no_barcode_captured">No barcode captured</string>
+    <string name="barcode_error_format">"Error reading barcode: %1$s"</string>
+
+    <!-- Strings related to barcode scanner -->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
+    
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="new_user_este_null">Rezultatul primit este null!</string>
+    <string name="new_user_succes">Succes!</string>
+    <string name="new_user_mesaj_succes">Contul a fost creat cu succes!</string>
+    <string name="new_user_intra_in_aplicatie">Intra in aplicatie</string>
+    <string name="new_user_eroare_la_creare_utilizator">Eroare la crearea utilizatorului! Verifica conexiunea la Internet</string>
+
+    <string-array name="items_faq">
+        <item>Cum se pot castiga puncte reducere?</item>
+        <item>Prin scanarea codului QR de pe nota de plata. Acest lucru e posibil prin apasarea butonului Scaneaza Nota din pagina principala a aplicatiei.</item>
+
+        <item>Ce pot face cu punctele acumulate din aplicatie?</item>
+        <item>Punctele acumulate prin scanarea notei se pot folosi pentru achitarea partiala sau integrala a notei de plata actuala sau una viitoare.</item>
+
+        <item>Ce valoare au punctele reducere?</item>
+        <item>Un punct reducere este echivalentul unui leu.</item>
+
+        <item>Pot modifica datele personale introduse initial la crearea contului?</item>
+        <item>Da, selectand Setari cont din meniul principal este afisat un formular cu datele personale ce pot fi modificate apasand butonul Salveaza.</item>
+
+        <item>Ce pot face in cazul in care aplicatia nu scaneaza codul QR de pe nota?</item>
+        <item>In cazul in care aplicatia nu scaneaza codul QR, trebuie anuntat un ospatar.</item>
+
+        <item>Pot folosi punctele reducere castigate pentru o nota de plata viitoare?</item>
+        <item>Da, aplicatia ofera posibilitatea de a folosi punctele de reducere la nota de plata actuala sau una viitoare.</item>
+
+    </string-array>
+
+</resources>

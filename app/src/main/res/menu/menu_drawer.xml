@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.enesimona30.licenta1.HomeActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:title="Acasa"
+            android:checkableBehavior="single"/>
+        <item
+            android:id="@+id/item_scaneaza_nota"
+            android:title="@string/menu_item_scaneaza_nota"
+            android:checkableBehavior="single"/>
+        <item
+            android:id="@+id/item_restaurante"
+            android:title="@string/menu_item_restaurante"
+            android:checkableBehavior="single"/>
+        <item
+            android:id="@+id/item_rezerva"
+            android:title="Rezerva"
+            android:checkableBehavior="single"/>
+
+
+        <item
+            android:id="@+id/item_istoric_tranzactii"
+            android:title="Istoric tranzactii"
+            android:checkableBehavior="single"/>
+
+        <item android:id="@+id/navigation_subheader" android:title="Cont si ajutor">
+
+            <menu>
+                <item
+                    android:id="@+id/item_setari_cont"
+                    android:title="@string/menu_item_setari_cont"
+                    android:checkableBehavior="single"/>
+                <item
+                    android:id="@+id/item_faq"
+                    android:title="@string/menu_item_faq"
+                    android:checkableBehavior="single"/>
+                <item
+                    android:id="@+id/item_contact"
+                    android:title="@string/menu_item_contact"
+                    android:checkableBehavior="single"/>
+            </menu>
+
+        </item>
+    </group>
+</menu>
